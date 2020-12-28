@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Button(props) {
     return (
-        <React.Fragment>
+        <div>
             { props.children }
-        </React.Fragment>
+        </div>
     )
 }
